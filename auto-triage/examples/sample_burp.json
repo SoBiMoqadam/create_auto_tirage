@@ -1,0 +1,18 @@
+{
+  "issues": [
+    {
+      "name": "Reflected XSS",
+      "severity": "High",
+      "host": "example.com",
+      "path": "/search?q=<script>",
+      "issueDetail": "Reflected XSS found in parameter q"
+    },
+    {
+      "name": "Information disclosure",
+      "severity": "Low",
+      "host": "example.com",
+      "path": "/admin",
+      "issueDetail": "Server header reveals version"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "subdomains": [
+    "admin.example.com",
+    "staging.example.com"
+  ],
+  "headers": {
+    "example.com": {
+      "server": "nginx",
+      "x-frame-options": "SAMEORIGIN"
+    }
+  }
+}
